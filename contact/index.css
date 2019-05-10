@@ -1,0 +1,40 @@
+h1 {
+	font-family: 'Sarina', cursive;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0px;
+	padding: 60px 0px 0px 0px;
+}
+
+h1>span {
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.jb-nav {
+	font-size: 18px;
+}
+
+.jb-page_content {
+	padding-bottom: 240px;
+}
+
+@media only screen and (min-width: 480px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h1>span {
+		font-size: 72px;
+	}
+
+	p {
+		font-size: 24px;
+	}
+}

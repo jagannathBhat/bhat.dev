@@ -1,0 +1,75 @@
+h1, p>a {
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+h1 {
+	font-family: 'Sarina', cursive;
+	font-size: 42px;
+	margin: 0px;
+	padding: 192px 0px 12px 0px;
+}
+
+p {
+	font-weight: 600;
+	letter-spacing: 6px;
+}
+
+p>a {
+	letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 480px) {
+	h1 {
+		font-size: 48px;
+		padding: 204px 0px 12px 0px;
+	}
+
+	p, p>a:hover {
+		letter-spacing: 12px;
+	}
+
+	p>a {
+		letter-spacing: 3px;
+	}
+}
+
+@media only screen and (min-width: 584px) {
+	h1 {
+		font-size: 72px;
+		padding: 192px 0px 12px 0px;
+	}
+
+	p, p>a:hover {
+		letter-spacing: 18px;
+	}
+
+	p>a {
+		letter-spacing: 6px;
+	}
+}
+
+@media only screen and (min-width: 748px) {
+	h1 {
+		font-size: 96px;
+		padding: 144px 0px 12px 0px;
+	}
+
+	p, p>a:hover {
+		letter-spacing: 24px;
+	}
+
+	p>a {
+		letter-spacing: 12px;
+	}
+}
+
+@media only screen and (min-width: 1048px) {
+	h1 {
+		font-size: 144px;
+		padding: 120px 0px 12px 0px;
+	}
+}
