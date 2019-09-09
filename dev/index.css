@@ -1,0 +1,71 @@
+body, html {
+	background: #212121;
+	color: #fafafa;
+	cursor: default;
+	font: 300 18px sans-serif;
+	margin: 0px;
+	padding: 24px;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: inherit;
+}
+
+h1 {
+	font: 300 60px sans-serif;
+	margin: 48px 0px 72px 0px;
+}
+
+h2 {
+	font: 300 36px sans-serif;
+	margin: 0px 0px 72px 0px;
+}
+
+h3 {
+	font: 300 24px sans-serif;
+	margin: 12px 0px;
+}
+
+nav {
+	margin: 0px 0px 120px 0px;
+}
+
+nav a {
+	margin-right: 18px;
+}
+
+nav img {
+	height: 42px;
+}
+
+.item {
+	display: block;
+	margin: 0px 0px 60px 0px;
+	max-width: auto;
+	width: 100%;
+}
+
+.item img {
+	width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+	.item {
+		display: inline-block;
+		max-width: 480px;
+		margin: 0px 0px 60px 24px;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	h1 {
+		font: 300 108px sans-serif;
+	}
+	.item {
+		display: inline-block;
+		max-width: 600px;
+		margin: 0px 0px 60px 24px;
+	}
+}
