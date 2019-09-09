@@ -60,6 +60,9 @@ nav img {
 }
 
 @media only screen and (min-width: 720px) {
+	h1 {
+		font: 300 108px sans-serif;
+	}
 	.item {
 		display: inline-block;
 		max-width: 600px;
