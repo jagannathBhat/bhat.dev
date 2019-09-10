@@ -1,1 +1,1 @@
-{"background_color":"#212121","display":"standalone","name":"bhat.dev","short_name":"bhat","start_url":"/","theme_color":"#212121"}
+{"background_color":"#212121","display":"standalone","icons":[{"src":"/img/icon192.png","type":"image/png","sizes":"192x192"},{"src":"/img/icons.png","type":"image/png","sizes":"512x512"}],"name":"bhat.dev","short_name":"bhat","start_url":"/","theme_color":"#212121"}
