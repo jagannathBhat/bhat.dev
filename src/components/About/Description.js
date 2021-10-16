@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ProfessionalExperience from './ProfessionalExperience'
+
 const Description = () => {
   return (
     <div className='flex flex-col items-start justify-around m-4 md:flex-row-reverse'>
@@ -10,15 +12,15 @@ const Description = () => {
           src='about.jpg'
         />
       </div>
-      <div className='max-w-lg mx-auto'>
-        <span className='flex items-center mb-9 mt-24 text-green-500 welcome w-1/3 md:mt-48'>
+      <div className='max-w-lg space-y-6 mx-auto'>
+        <span className='flex items-center mb-3 mt-24 text-green-500 welcome w-1/3 md:mt-48'>
           welcome
         </span>
-        <h2 className='alt-font font-bold mb-6 text-7xl'>i'm jagannath bhat</h2>
-        <h3 className='font-bold mb-6 text-2xl'>
+        <h2 className='alt-font font-bold text-7xl'>i'm jagannath bhat</h2>
+        <h3 className='font-bold text-2xl'>
           full-stack developer / teacher{' '}
         </h3>
-        <p className='leading-10 mb-6 text-lg'>
+        <p className='leading-10 text-lg'>
           currently working as a software engineer{' '}
           <a href='https://bigbinary.com/' rel='noreferrer' target='_blank'>
             @bigbinary
@@ -38,6 +40,7 @@ const Description = () => {
             join discord
           </button>
         </a>
+        <ProfessionalExperience />
       </div>
     </div>
   )
