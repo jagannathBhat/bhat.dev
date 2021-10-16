@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Description from './Description'
-import Header from './Header'
+import Header from './Header/index'
 
 const About = () => {
   return (
