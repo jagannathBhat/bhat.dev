@@ -3,11 +3,13 @@ import React from 'react'
 const Description = () => {
   return (
     <div className='flex flex-col items-start justify-around m-4 md:flex-row-reverse'>
-      <img
-        alt='jagannath bhat'
-        className='self-center w-2/3 md:w-1/3'
-        src='about.jpg'
-      />
+      <div className='m-4 md:w-1/3'>
+        <img
+          alt='jagannath bhat'
+          className='self-center w-full'
+          src='about.jpg'
+        />
+      </div>
       <div className='max-w-lg mx-auto'>
         <span className='flex items-center mb-9 mt-24 text-green-500 welcome w-1/3 md:mt-48'>
           welcome
