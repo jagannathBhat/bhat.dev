@@ -6,6 +6,14 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Pull Request Process
 
+### For non-project members
+
+1. Feel free to fork this repo and start tinkering. If you feel like you can make a contribution to this repo, find a list of issues you can work on, or create your own issue. This makes sure that you are spending time on contributions that are relevant to the project.
+2. Please use only lower case alphabets when writing commit messages or when naming branches and pull requests. Do no use past tense in commit messages. Please go through the [commit log](https://github.com/jagannathBhat/bhat.dev/commits/master) to get an idea of the convention for the commit messages.
+3. After making contributions, create a pull request with a name that sumarises what the contributions include. Link the pull request to the related isssue using an association keyword. [Learn more](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue).
+
+### For project members
+
 1. When we start working on an issue, we create a branch for that issue.
 
    The branch name must start with the issue number.
@@ -14,8 +22,26 @@ Please note we have a code of conduct, please follow it in all your interactions
 
    Assign @jagannathBhat to the issue once you're done with the contribution.
 
-2. After making contributions to the branch, create a pull request with a name that sumarises what the contributions include. Assign @jagannathBhat to the pull request to get it reviewed and merged.
-3. Please use only lower case alphabets when writing commit messages or when naming branches and pull requests. Do no use past tense in commit messages. Please go through the [commit log](https://github.com/jagannathBhat/bhat.dev/commits/master) to get an idea of the convention for the commit messages.
+2. Please use only lower case alphabets when writing commit messages or when naming branches and pull requests. Do no use past tense in commit messages. Please go through the [commit log](https://github.com/jagannathBhat/bhat.dev/commits/master) to get an idea of the convention for the commit messages.
+3. After making contributions to the branch, create a pull request with a name that sumarises what the contributions include. Assign @jagannathBhat to the pull request to get it reviewed and merged.
+
+## Development Instructions
+
+### Installing Packages
+
+This project uses [`yarn`](https://yarnpkg.com/) for package management. So please use `yarn install` for installing the existing packages or `yarn add` to add another package.
+
+### Dev Server
+
+Run `yarn start` to start a dev server that shows your progress on the browser.
+
+### Styling
+
+This project uses [`tailwind`](https://tailwindcss.com/) for styling. Please use the styling options provided by tailwind unless you can't find what you're looking for.
+
+### Build
+
+There is no need to build this project after contribution. Build functions are handled by [`netlify`](http://netlify.com/). A deployment will be created with your contributions once you create a pull request. The link to the deployment will be posted by netlify in the pull request.
 
 ## Code of Conduct
 
