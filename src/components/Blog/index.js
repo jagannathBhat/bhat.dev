@@ -20,7 +20,7 @@ const Blog = () => {
         . they're about different experiences i've had and what i've learned
         from them. hope you enjoy reading them. if you do, give them some claps.
       </p>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto w-5/6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto w-5/6'>
         {POSTS.map((post, index) => (
           <Post key={index} data={post} />
         ))}
