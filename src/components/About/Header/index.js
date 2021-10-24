@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { LINKS, SOCIALS } from '../constants'
+import { LINKS } from '../constants'
+import { SOCIALS } from '../../constants'
 import MobileNav from './MobileNav'
 
 const Header = () => {
