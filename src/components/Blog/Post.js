@@ -9,7 +9,7 @@ const Post = ({ data }) => {
       ></div>
       <h3 className='alt-font font-semibold text-3xl'>{data.name}</h3>
       <div className='flex items-center justify-between'>
-        <p className='text-gray-400'>{data.date}</p>
+        <span className='text-gray-400'>{data.date}</span>
         <a
           className='text-green-500 text-xl'
           href={data.url}
