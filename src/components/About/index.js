@@ -6,7 +6,7 @@ import Header from './Header/index'
 const About = () => {
   return (
     <div className='about-section'>
-      <div className='max-w-5xl mx-auto'>
+      <div className='max-w-7xl mx-auto'>
         <Header />
         <Description />
       </div>
