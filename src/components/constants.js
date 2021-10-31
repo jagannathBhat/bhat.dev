@@ -28,11 +28,9 @@ export const PROJECTS = [
             "Firebase cloud function",
             "Firebase cloud messaging",
             "Cloud function",
-            "cloud messaging",
+            "Cloud messaging",
         ],
     },
-
-
     {
         description: "Private Bus Concession Card generator for Adi Shankara Institute of Engineering and Technology",
         name: "Genc-asiet",
@@ -40,25 +38,22 @@ export const PROJECTS = [
         projectURL: "https://hexify.tech/genc-asiet",
         topics: [
             "Technology", 
-            "Electron ", 
+            "Electron", 
             "React", 
             "Material UI", 
             "Pouch DB", 
         ],
     },
-
-
     {
         description: "Common Vulnerability Scoring System based calculator",
         name: "cvss",
         repoURL: "https://github.com/jagannathBhat/cvss",
         projectURL: "cvss.bhat.dev",
         topics: [
-            "calculator",
-            "cvs",
+            "Calculator",
+            "CVSS",
         ],
     },
-
     {
         description: "Template for Create React App with Redux and Material-UI",
         name: "cra-template-rrm",
@@ -70,7 +65,6 @@ export const PROJECTS = [
             "create-react-app-template",
         ],
     },
-
     {
         description: "ODC is a system for Govt. schools to collect students' data and send it to Govt. officials. ODC works can be used to collect data even when offline. The data will be sent automatically when the app comes back online.",
         name: "odc",
@@ -81,7 +75,6 @@ export const PROJECTS = [
             "pouchDB",
         ],
     },
-
     {
         description: "Help people determine if a tumor on their skin is Benign or Malignant",
         name: "benant",
@@ -97,9 +90,8 @@ export const PROJECTS = [
             "skin-cancer",
         ],
     },
-
     {
-        description: "Not working at the moment. Download the anime you want from AnimeYoutube without any of the ads. This project is not production ready because of some issues. Please check the issues section if you can help me out with any of them",
+        description: "Download the anime you want from AnimeYoutube without any of the ads. This project is not production ready because of some issues. Please check the issues section if you can help me out with any of them",
         name: "anime youtube downloader",
         repoURL: "https://github.com/jagannathBhat/animeyoutube-downloader",
         projectURL: "animeyoutubedownloader.herokuapp.com/",
@@ -110,10 +102,9 @@ export const PROJECTS = [
             "anime", 
             "webscraping", 
             "anime-downloader", 
-            "anime-scrape", 
+            "anime-scraper", 
         ],
     },
-
     {
         description: "NPM package - Boilerplate for making web apps with React, Redux and Material-UI",
         name: "rrm-app",
@@ -127,7 +118,6 @@ export const PROJECTS = [
             "npm-package",
         ],
     },
-
     {
         description: "NodeJS script to generate certificates in PDF format from am SVG template",
         name: "certificate generator",
@@ -135,7 +125,6 @@ export const PROJECTS = [
         projectURL: "",
         topics: ["nodejs", "pdfkit",],
     },
-
     {
         description: "A web app that generates Time Tables using a Genetic Algorithm",
         name: "fit-tables",
@@ -149,7 +138,6 @@ export const PROJECTS = [
             "timetable-generato", 
         ],
     },
-
     {
         description: "This is repo contains the website for the technical fest of Adi Shankara Institute of Engineering and Technology",
         name: "ashwamedha",
@@ -157,7 +145,6 @@ export const PROJECTS = [
         projectURL: "jagannathbhat.github.io/ashwamedha19/",
         topics: [],
     },
-
     {
         description: "Website for the hackathon Hack Camp 1.0",
         name: "hackCamp1",
@@ -165,7 +152,6 @@ export const PROJECTS = [
         projectURL: "jagannathbhat.github.io/hackcamp1/",
         topics: [],
     },
-
     {
         description: "Concept website for a company called OpenSale that runs cashier-less stores",
         name: "OpenSale",
@@ -173,7 +159,6 @@ export const PROJECTS = [
         projectURL: "https://jagannathbhat.gitlab.io/opensale",
         topics: [],
     },
-
     {
         description: "Offline persistent database for react native based on Async Storage. Developed by combining PouchDB and Async Storage.",
         name: "async-storage-db",
