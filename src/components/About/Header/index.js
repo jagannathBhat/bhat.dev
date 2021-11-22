@@ -14,15 +14,7 @@ const Header = () => {
             jb
           </h1>
           {LINKS.map((link, index) => (
-            <a
-              key={index}
-              className={
-                index === 0
-                  ? 'hidden mx-2 text-green-500 md:inline'
-                  : 'hidden mx-2 md:inline'
-              }
-              href={`#${link}`}
-            >
+            <a key={index} className='hidden mx-2 md:inline' href={`#${link}`}>
               {link}
             </a>
           ))}

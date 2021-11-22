@@ -4,7 +4,7 @@ import SubscriptionForm from './SubscriptionForm'
 
 const index = () => {
   return (
-    <div className='my-20 p-4 text-center w-full'>
+    <div className='my-20 p-4 text-center w-full' id='courses'>
       <h1 className='alt-font font-bold mb-10 text-5xl'>courses</h1>
       <div className='flex justify-center'>
         <div className='flex flex-col shadow-lg lg:flex-row lg:h-80'>
