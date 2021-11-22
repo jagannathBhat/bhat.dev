@@ -11,7 +11,7 @@ const Projects = () => {
   const [showModal, setShowModal] = useState(false)
 
   return (
-    <div className='bg-green-50 bg-opacity-40 py-20 text-center'>
+    <div className='bg-green-50 bg-opacity-40 py-20 text-center' id='projects'>
       <h1 className='alt-font font-bold text-5xl'>projects</h1>
       <p className='mb-14 mt-2 mx-4 text-gray-500 text-lg sm:mx-auto sm:w-2/3'>
         these are some of the projects i've worked on

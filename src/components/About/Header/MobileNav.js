@@ -15,8 +15,9 @@ const MobileNav = ({ setShowNav }) => {
       {LINKS.map((link, index) => (
         <a
           key={index}
-          className={index === 0 ? 'm-3 text-green-500 text-xl' : 'm-3 text-xl'}
+          className='m-3 text-xl'
           href={`#${link}`}
+          onClick={() => setShowNav(false)}
         >
           {link}
         </a>

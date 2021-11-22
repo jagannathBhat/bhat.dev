@@ -4,7 +4,10 @@ import ProfessionalExperience from './ProfessionalExperience'
 
 const Description = () => {
   return (
-    <div className='flex flex-col items-start justify-around m-4 md:flex-row-reverse'>
+    <div
+      className='flex flex-col items-start justify-around m-4 md:flex-row-reverse'
+      id='about'
+    >
       <div className='m-4 md:w-1/3'>
         <img
           alt='jagannath bhat'
@@ -17,9 +20,7 @@ const Description = () => {
           welcome
         </span>
         <h2 className='alt-font font-bold text-7xl'>i'm jagannath bhat</h2>
-        <h3 className='font-bold text-2xl'>
-          full-stack developer / teacher{' '}
-        </h3>
+        <h3 className='font-bold text-2xl'>full-stack developer / teacher </h3>
         <p className='leading-10 text-lg'>
           currently working as a software engineer{' '}
           <a href='https://bigbinary.com/' rel='noreferrer' target='_blank'>
