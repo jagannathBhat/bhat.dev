@@ -18,7 +18,7 @@ const Projects = () => {
       </p>
       <div
         className='flex flex-col lowercase max-w-7xl mx-auto p-8 space-y-7 text-left
-        lg:space-x-7 lg:space-y-0'
+        lg:flex-row lg:space-x-7 lg:space-y-0'
       >
         <ProjectMain project={PROJECTS[0]} />
         <div className='space-y-4'>
