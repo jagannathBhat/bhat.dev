@@ -1,23 +1,13 @@
-import './App.css'
+import "./App.css";
 
-import About from './components/About/index'
-import Blog from './components/Blog'
-import Contact from './components/Contact'
-import Courses from './components/Courses'
-import Footer from './components/Footer'
-import Projects from './components/Projects'
+import About from "./components/About/index";
+import Blog from "./components/Blog";
+import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
-function App() {
-  return (
-    <>
-      <About />
-      <Courses />
-      <Projects />
-      <Blog />
-      <Contact />
-      <Footer />
-    </>
-  )
-}
+const App = () => {
+  const sections = [About, Projects, Blog, Footer];
+  return sections.map((Section) => <Section />);
+};
 
-export default App
+export default App;
