@@ -1,50 +1,32 @@
-import React from 'react'
+import React from "react";
 
-import ProfessionalExperience from './ProfessionalExperience'
+import ProfessionalExperience from "./ProfessionalExperience";
 
 const Description = () => {
   return (
     <div
-      className='flex flex-col items-start justify-around m-4 md:flex-row-reverse'
-      id='about'
+      className="flex flex-col items-start justify-around p-4 pb-32 md:flex-row-reverse"
+      id="about"
     >
-      <div className='m-4 md:w-1/3'>
+      <div className="m-4 md:w-1/3">
         <img
-          alt='jagannath bhat'
-          className='self-center w-full'
-          src='about.jpg'
+          alt="jagannath bhat"
+          className="self-center w-full"
+          src="about.jpg"
         />
       </div>
-      <div className='max-w-lg space-y-6 mx-auto'>
-        <span className='flex items-center mb-3 mt-24 text-green-500 welcome w-1/3 md:mt-48'>
+      <div className="max-w-lg mx-auto">
+        <span className="flex items-center mb-3 mt-24 text-green-500 welcome w-1/3 md:mt-48">
           welcome
         </span>
-        <h2 className='alt-font font-bold text-7xl'>i'm jagannath bhat</h2>
-        <h3 className='font-bold text-2xl'>full-stack developer / teacher </h3>
-        <p className='leading-10 text-lg'>
-          currently working as a software engineer{' '}
-          <a href='https://bigbinary.com/' rel='noreferrer' target='_blank'>
-            @bigbinary
-          </a>
-          . i love teaching and i am working on building online courses. join my
-          discord to keep in touch.
-        </p>
-        <a
-          href='https://discord.gg/PA5ZxAuSp3'
-          rel='noreferrer'
-          target='_blank'
-        >
-          <button
-            className='border-2 border-green-500 mb-10 p-3 text-green-500 text-lg
-            transition duration-150 hover:bg-green-500 hover:text-white'
-          >
-            join discord
-          </button>
-        </a>
+        <h2 className="alt-font font-bold text-7xl">i'm jagannath bhat</h2>
+        <h3 className="text-2xl tracking-wider mb-12">
+          i build web apps. i teach stuff.
+        </h3>
         <ProfessionalExperience />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Description
+export default Description;
