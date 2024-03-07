@@ -2,9 +2,9 @@ export const LINKS = ["about", "projects", "blog"];
 
 export const PROFESSIONAL_EXPERIENCE = [
   {
-    duration: "2 years",
+    duration: "3 years",
     logo: "https://www.bigbinary.com/blog_images/bigbinary_square_logo.png",
-    subtitle: "Ruby on Rails, ReactJS, Heroku",
+    subtitle: "Ruby on Rails, ReactJS, Kubernetes, Docker, AWS, Heroku",
     title: "Software Engineer",
   },
   {
