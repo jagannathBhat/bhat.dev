@@ -1,6 +1,5 @@
 import React from "react";
 import { LINKS } from "../constants";
-import { SOCIALS } from "../../constants";
 
 const MobileNav = ({ setShowNav }) => {
   return (
