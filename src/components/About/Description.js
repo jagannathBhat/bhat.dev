@@ -1,7 +1,8 @@
 import React from "react";
 
 import ProfessionalExperience from "./ProfessionalExperience";
-import { SOCIALS } from "../constants";
+
+import Socials from "../Common/Socials";
 
 const Description = () => {
   return (
@@ -25,11 +26,7 @@ const Description = () => {
           i build web apps. i teach stuff.
         </h3>
         <div className="flex items-center mb-12 space-x-8 text-4xl text-gray-700">
-          {SOCIALS.map((social, index) => (
-            <a key={index} href={social.link} rel="noreferrer" target="_blank">
-              <i className={social.icon}></i>
-            </a>
-          ))}
+          <Socials />
         </div>
         <ProfessionalExperience />
       </div>

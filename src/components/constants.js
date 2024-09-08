@@ -2,22 +2,27 @@ export const SOCIALS = [
   {
     icon: "ri-linkedin-box-line",
     link: "https://www.linkedin.com/in/jagannathbhatjb/",
+    title: "hire me please!",
   },
   {
     icon: "ri-github-line",
     link: "https://github.com/jagannathBhat",
+    title: "repos i would like people to know about",
   },
   {
     icon: "ri-gitlab-line",
     link: "https://gitlab.com/jagannathBhat",
+    title: "repos i do not care to tell people about",
   },
   {
     icon: "ri-instagram-line",
     link: "https://instagram.com/jagannathbhatjb",
+    title: "if one photo of me isn't enough",
   },
   {
     icon: "ri-youtube-line",
     link: "https://youtube.com/@jagannathbhatjb",
+    title: "i make videos whenever i feel like it",
   },
 ];
 
