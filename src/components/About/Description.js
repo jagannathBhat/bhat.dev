@@ -1,6 +1,7 @@
 import React from "react";
 
 import ProfessionalExperience from "./ProfessionalExperience";
+import { SOCIALS } from "../constants";
 
 const Description = () => {
   return (
@@ -23,6 +24,13 @@ const Description = () => {
         <h3 className="text-2xl tracking-wider mb-12">
           i build web apps. i teach stuff.
         </h3>
+        <div className="flex items-center mb-12 space-x-8 text-4xl text-gray-700">
+          {SOCIALS.map((social, index) => (
+            <a key={index} href={social.link} rel="noreferrer" target="_blank">
+              <i className={social.icon}></i>
+            </a>
+          ))}
+        </div>
         <ProfessionalExperience />
       </div>
     </div>
