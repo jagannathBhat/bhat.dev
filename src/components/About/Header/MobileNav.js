@@ -12,7 +12,7 @@ const MobileNav = ({ setShowNav }) => {
       >
         <i className="ri-close-line"></i>
       </button>
-      {LINKS.map((link, index) => (
+      {LINKS.map(({ key: link }, index) => (
         <a
           key={index}
           className="m-3 text-xl"

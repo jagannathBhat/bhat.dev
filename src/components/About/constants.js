@@ -1,4 +1,15 @@
-export const LINKS = ["about", "projects", "blog"];
+export const LINKS = [
+  { key: "about", title: "me me me me" },
+  {
+    key: "projects",
+    title: "you don't need to check them out. just hire me. you wont regret",
+  },
+  {
+    key: "blog posts",
+    title:
+      "if you have the time and attention span, i dare you to read them and respond",
+  },
+];
 
 export const PROFESSIONAL_EXPERIENCE = [
   {

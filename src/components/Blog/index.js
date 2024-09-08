@@ -5,8 +5,16 @@ import { POSTS } from "./constants";
 
 const Blog = () => {
   return (
-    <div className="bg-green-50 bg-opacity-40 py-20 text-center" id="blog">
-      <h1 className="alt-font font-bold text-5xl" title="click on that medium link below">blog posts</h1>
+    <div
+      className="bg-green-50 bg-opacity-40 py-20 text-center"
+      id="blog posts"
+    >
+      <h1
+        className="alt-font font-bold text-5xl"
+        title="click on that medium link below"
+      >
+        blog posts
+      </h1>
       <p className="mb-14 mt-2 mx-4 text-gray-500 text-lg sm:mx-auto sm:w-2/3">
         these are some blog posts i've written and posted on{" "}
         <a

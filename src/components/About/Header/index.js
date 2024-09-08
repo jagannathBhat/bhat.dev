@@ -13,8 +13,13 @@ const Header = () => {
             jb
           </h1>
           {LINKS.map((link, index) => (
-            <a key={index} className="hidden mx-2 md:inline" href={`#${link}`}>
-              {link}
+            <a
+              key={index}
+              className="hidden mx-2 md:inline"
+              href={`#${link.key}`}
+              title={link.title}
+            >
+              {link.key}
             </a>
           ))}
         </div>
