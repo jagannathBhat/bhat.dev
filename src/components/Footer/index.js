@@ -1,15 +1,11 @@
 import React from "react";
-import { SOCIALS } from "../constants";
+import Socials from "../Common/Socials";
 
 const Footer = () => (
   <div className="flex items-center justify-between max-w-7xl mx-auto p-8">
     <h1 className="alt-font font-bold mr-4 text-5xl text-green-500">jb</h1>
-    <div className="text-3xl">
-      {SOCIALS.map((social, index) => (
-        <a key={index} href={social.link} rel="noreferrer" target="_blank">
-          <i className={`mx-3 ${social.icon}`}></i>
-        </a>
-      ))}
+    <div className="text-3xl space-x-5">
+      <Socials />
     </div>
   </div>
 );
