@@ -15,6 +15,10 @@ export const SOCIALS = [
     icon: "ri-instagram-line",
     link: "https://instagram.com/jagannathbhatjb",
   },
+  {
+    icon: "ri-youtube-line",
+    link: "https://youtube.com/@jagannathbhatjb",
+  },
 ];
 
 export const PROJECTS = [
