@@ -6,7 +6,7 @@ import { POSTS } from "./constants";
 const Blog = () => {
   return (
     <div
-      className="bg-green-50 bg-opacity-40 py-20 text-center"
+      className="bg-primary-50 bg-opacity-40 py-20 text-center"
       id="blog posts"
     >
       <h1

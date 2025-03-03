@@ -18,7 +18,7 @@ const Description = () => {
         />
       </div>
       <div className="max-w-lg mx-auto">
-        <span className="flex items-center mb-3 mt-24 text-green-500 welcome w-1/3 md:mt-48">
+        <span className="flex items-center mb-3 mt-24 text-primary welcome w-1/3 md:mt-48">
           welcome
         </span>
         <h2 className="alt-font font-bold text-7xl" title="hence the jb">

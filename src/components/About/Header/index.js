@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <div className="flex items-center justify-between px-4 py-6">
         <div className="flex items-center">
-          <h1 className="alt-font font-bold mr-4 text-5xl text-green-500">
+          <h1 className="alt-font font-bold mr-4 text-5xl text-primary">
             jb
           </h1>
           {LINKS.map((link, index) => (

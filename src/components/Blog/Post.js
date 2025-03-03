@@ -11,7 +11,7 @@ const Post = ({ data }) => {
       <div className='flex items-center justify-between'>
         <span className='text-gray-400'>{data.date}</span>
         <a
-          className='text-green-500 text-xl'
+          className='text-primary text-xl'
           href={data.url}
           rel='noreferrer'
           target='_blank'
