@@ -11,7 +11,7 @@ const Projects = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="bg-green-50 bg-opacity-40 py-20 text-center" id="projects">
+    <div className="bg-primary-50 bg-opacity-40 py-20 text-center" id="projects">
       <h1 className="alt-font font-bold text-5xl">projects</h1>
       <p
         className="mb-14 mt-2 mx-4 text-gray-500 text-lg sm:mx-auto sm:w-2/3"
@@ -30,8 +30,8 @@ const Projects = () => {
           ))}
           <div>
             <button
-              className="border-2 border-green-500 mt-8 px-2 py-1 text-green-500 text-md w-full
-              transition duration-150 hover:bg-green-500 hover:text-white"
+              className="border-2 border-primary mt-8 px-2 py-1 text-primary text-md w-full
+              transition duration-150 hover:bg-primary hover:text-white"
               title="just the ones i like to show people. there are so many more stale projects"
               onClick={() => setShowModal(true)}
             >
