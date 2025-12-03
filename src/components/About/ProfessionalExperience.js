@@ -13,14 +13,25 @@ const ProfessionalExperience = () => {
           className="font-semibold text-gray-400 px-4 md:w-1/2 md:px-0"
         >
           <p className="text-2xl text-black">{exp.title}</p>
-          <p>
-            <span className="text-gray-700">{exp.company}</span>
-            <span>{" . "}
-              {(exp.yearEnd ?? currentYear) - exp.yearStart} year
-              {(exp.yearEnd ?? currentYear) - exp.yearStart > 1 ? "s" : ""}
-            </span>
-          </p>
-          <p>{exp.subtitle}</p>
+          <div className="space-y-2 mt-4">
+            {exp.companies.map(company => {
+              const duration =
+                (company.yearEnd ?? currentYear) - company.yearStart;
+              return (
+                <div>
+                  <p>
+                    <span className="text-gray-700">{company.name}</span>
+                    <span>
+                      {" . "}
+                      {duration} year
+                      {duration > 1 ? "s" : ""}
+                    </span>
+                  </p>
+                  <p>{company.skills}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       ))}
     </div>
